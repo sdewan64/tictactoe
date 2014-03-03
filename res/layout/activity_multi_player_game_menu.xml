@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texturej" >
+
+    <Button
+        android:id="@+id/quitButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:onClick="QuitButtonClicked"
+        android:text="@string/Quit" />
+
+    <Button
+        android:id="@+id/joinGameButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/quitButton"
+        android:layout_alignParentLeft="true"
+        android:onClick="JoinGameButtonClicked" 
+        android:text="@string/JoinAGame" />
+    
+    <Button
+        android:id="@+id/hostNewButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/joinGameButton"
+        android:layout_alignParentLeft="true"
+        android:onClick="HostNewGameButtonClicked" 
+        android:text="@string/HostNewGame" />
+
+</RelativeLayout>

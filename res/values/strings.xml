@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TicTacToeOnline</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_single_player_game">SinglePlayerGameActivity</string>
+    <string name="Quit">Quit</string>
+    <string name="SinglePlayer">Single Player</string>
+    <string name="YourTurn">Your Turn</string>
+    <string name="MultiplayerOnline">Multiplayer Online</string>
+    <string name="title_activity_multi_player_game_menu">MultiPlayerGameMenuActivity</string>
+    <string name="JoinAGame">Join A Game</string>
+    <string name="HostNewGame">Host New Game</string>
+    <string name="PA">Play Again</string>
+    <string name="title_activity_multi_player_game">MultiPlayerGame</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_multiplayer_game">MultiplayerGame</string>
+    <string name="title_activity_multiplayer_game_client">MultiplayerGameClient</string>
+
+</resources>

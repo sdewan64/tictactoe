@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ariondev.tictactoeonline"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+	<uses-permission android:name="android.permission.BLUETOOTH"/>
+	<uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ico"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.ariondev.tictactoeonline.MenuActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.ariondev.tictactoeonline.SinglePlayer"
+            android:label="@string/title_activity_single_player_game" >
+        </activity>
+        <activity
+            android:name="com.ariondev.tictactoeonline.MultiPlayerGameMenu"
+            android:label="@string/title_activity_multi_player_game_menu" >
+        </activity>
+        <activity
+            android:name="com.ariondev.tictactoeonline.MultiPlayerGame"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_multi_player_game"
+            android:theme="@style/FullscreenTheme" >
+        </activity>
+        <activity
+            android:name="com.ariondev.tictactoeonline.MultiplayerGameHost"
+            android:label="@string/title_activity_multiplayer_game" >
+        </activity>
+        <activity
+            android:name="com.ariondev.tictactoeonline.MultiplayerGameClient"
+            android:label="@string/title_activity_multiplayer_game_client" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/texturej" >
+
+    <Button
+        android:id="@+id/quitButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:onClick="QuitButtonClicked"
+        android:text="@string/Quit" />
+
+    <Button
+        android:id="@+id/singlePlayerButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/quitButton"
+        android:layout_alignParentLeft="true"
+        android:onClick="SinglePlayerButtonClicked" 
+        android:text="@string/SinglePlayer" />
+    
+    <Button
+        android:id="@+id/multiPlayerButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/singlePlayerButton"
+        android:layout_alignParentLeft="true"
+        android:onClick="MultiPlayerButtonClicked" 
+        android:text="@string/MultiplayerOnline" />
+    
+    
+
+</RelativeLayout>
